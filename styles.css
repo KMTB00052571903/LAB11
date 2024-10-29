@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(45deg, #00FFFF, #000000); /* Degradado azul cian neón con negro */
+    color: white; /* Color del texto en blanco */
+    min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Añadir algo de espacio alrededor del contenido */
+}
+
+#search {
+    margin-bottom: 20px; /* Espacio debajo de la barra de búsqueda */
+}
+
+.search-bar {
+    width: 40%; /* Hacer la barra de búsqueda más grande */
+    padding: 10px; /* Añadir algo de relleno dentro del input */
+    border-radius: 25px; /* Bordes redondeados */
+    border: 2px solid #00FFFF; /* Borde cian neón */
+    font-size: 18px; /* Aumentar el tamaño de la fuente */
+    outline: none; /* Quitar el borde por defecto del input al enfocarse */
+}
+
+#agents-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.agent {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor contraste */
+}
+
+.agent img {
+    width: 100px;
+    height: 100px;
+}
+
+.agent h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: white; /* Asegura que el color del texto sea blanco */
+}
+
+.agent p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: white; /* Asegura que el color del texto sea blanco */
+}
+
+.agent ul {
+    list-style-type: none;
+    padding: 0;
+    color: white; /* Asegura que el color del texto sea blanco */
+}
+
+.agent li {
+    font-size: 14px;
+}
